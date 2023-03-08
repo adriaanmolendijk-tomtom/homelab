@@ -16,6 +16,5 @@ services:
     networks:
       - homelab
 
-
 networks:
   homelab:

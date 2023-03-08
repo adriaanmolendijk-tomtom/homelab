@@ -2,8 +2,11 @@ FROM kalilinux/kali-rolling:latest
 
 RUN apt-get update \
     && apt-get install -y \
+        iputils-ping \
         netcat-traditional \
+        net-tools \
         nmap \
-        socat
+        socat \
+        wget
 
 CMD ["/bin/sh", "-c", "sleep 1d"]
