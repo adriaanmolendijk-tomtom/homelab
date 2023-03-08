@@ -1,0 +1,8 @@
+FROM ubuntu:22.04
+
+RUN apt-get update \
+    && apt-get install -y \
+        netcat \
+        socat
+
+CMD ["/bin/sh", "-c", "sleep 1d"]

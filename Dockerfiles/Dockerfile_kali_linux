@@ -1,0 +1,9 @@
+FROM kalilinux/kali-rolling:latest
+
+RUN apt-get update \
+    && apt-get install -y \
+        netcat-traditional \
+        nmap \
+        socat
+
+CMD ["/bin/sh", "-c", "sleep 1d"]
