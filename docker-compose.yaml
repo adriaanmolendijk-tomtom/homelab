@@ -2,16 +2,12 @@ version: "3"
 
 services:
   ubuntu:
-    build:
-      context: Dockerfiles
-      dockerfile: Dockerfile_ubuntu
+    build: docker/ubuntu
     container_name: ubuntu
     networks:
       - homelab
   kali-linux:
-    build:
-      context: Dockerfiles
-      dockerfile: Dockerfile_kali_linux
+    build: docker/kali-linux
     container_name: kali-linux
     networks:
       - homelab
