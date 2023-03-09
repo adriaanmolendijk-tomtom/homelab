@@ -1,5 +1,5 @@
 ubuntu:
 	docker build -t a3cipher/ubuntu docker/ubuntu
 
-kali-linux:
-	docker build -t a3cipher/kali-linux docker/kali-linux
+kalilinux:
+	docker build -t a3cipher/kalilinux docker/kalilinux
