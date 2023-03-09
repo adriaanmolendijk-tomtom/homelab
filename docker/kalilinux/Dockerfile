@@ -27,4 +27,7 @@ RUN apt-get update \
         wget \
         wpscan
 
+RUN git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf \
+    && ~/.fzf/install --all
+
 CMD ["/bin/sh", "-c", "sleep 1d"]
