@@ -16,7 +16,6 @@ RUN apt-get update \
         jq \
         metasploit-framework \
         netcat-traditional \
-        net-tools \
         nmap \
         seclists \
         smbclient \
