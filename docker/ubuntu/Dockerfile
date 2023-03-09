@@ -6,6 +6,7 @@ RUN apt-get update \
         iputils-ping \
         netcat \
         net-tools \
-        socat
+        socat \
+        wget
 
 CMD ["/bin/sh", "-c", "sleep 1d"]
