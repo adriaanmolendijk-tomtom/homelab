@@ -11,6 +11,7 @@ RUN apt-get update \
         gobuster \
         hashcat \
         hydra \
+        iproute2 \
         iputils-ping \
         john \
         jq \
